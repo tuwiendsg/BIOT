@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_galaxy_billing_EventLog" items="${eventlogs}" z="WkDqh+7UphgcCbSD4ugPWqe+av0=">
+        <table:table data="${eventlogs}" id="l_galaxy_billing_EventLog" path="/eventlogs" z="oYQg0nol+LyWwYXTvMXPzzHNMME=">
+            <table:column id="c_galaxy_billing_EventLog_gbotsId" property="gbotsId" z="vnEys+uA5HRcsraBFOR67qTjcO8="/>
+            <table:column id="c_galaxy_billing_EventLog_instanceId" property="instanceId" z="/Jo28JlTxlmyy/rbX+HfHr/idnA="/>
+            <table:column date="true" dateTimePattern="${eventLog_publishdate_date_format}" id="c_galaxy_billing_EventLog_publishDate" property="publishDate" z="AppdGhwJDiAvxIarL8C0s801yK8="/>
+            <table:column id="c_galaxy_billing_EventLog_customerId" property="customerId" z="3TqiJflFPmvc8At3jIsQENruoIY="/>
+            <table:column id="c_galaxy_billing_EventLog_providerId" property="providerId" z="GH5/NG8hRVQ442n+yBzWCi86skA="/>
+            <table:column id="c_galaxy_billing_EventLog_gbotType" property="gbotType" z="lqgDNXSx1FDm8w2yZB0fF6JULzk="/>
+        </table:table>
+    </page:list>
+</div>

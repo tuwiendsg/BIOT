@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_galaxy_billing_BillingRevenue" object="${billingrevenue}" path="/billingrevenues" z="SLEoimR2KQ2vz/ja47AoRtqVcr0=">
+        <field:display field="billId" id="s_galaxy_billing_BillingRevenue_billId" object="${billingrevenue}" z="9GvYH3Ph8nyCntNW2lMXzp746I0="/>
+        <field:display date="true" dateTimePattern="${billingRevenue_billingdate_date_format}" field="billingDate" id="s_galaxy_billing_BillingRevenue_billingDate" object="${billingrevenue}" z="MCRW4u6Z//dXJCJoT0lnp9wtM9M="/>
+        <field:display field="billingAmount" id="s_galaxy_billing_BillingRevenue_billingAmount" object="${billingrevenue}" z="+AVyDtsfh0bnvdF87cnR77+GGvQ="/>
+        <field:display field="revenueAmount" id="s_galaxy_billing_BillingRevenue_revenueAmount" object="${billingrevenue}" z="vVvdC6amJxF1NlTqFCwdZw1ORUw="/>
+    </page:show>
+</div>

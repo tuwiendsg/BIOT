@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="billingrevenues/list">
+        <put-attribute name="body" value="/WEB-INF/views/billingrevenues/list.jspx"/>
+    </definition>
+<definition extends="default" name="billingrevenues/show">
+        <put-attribute name="body" value="/WEB-INF/views/billingrevenues/show.jspx"/>
+    </definition>
+<definition extends="default" name="billingrevenues/create">
+        <put-attribute name="body" value="/WEB-INF/views/billingrevenues/create.jspx"/>
+    </definition>
+<definition extends="default" name="billingrevenues/update">
+        <put-attribute name="body" value="/WEB-INF/views/billingrevenues/update.jspx"/>
+    </definition>
+</tiles-definitions>

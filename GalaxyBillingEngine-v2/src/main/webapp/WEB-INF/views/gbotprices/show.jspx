@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_galaxy_billing_GbotPrice" object="${gbotprice}" path="/gbotprices" z="I1m33QI+fUXvAJS9wRys/nq1vAc=">
+       <field:display field="priceList" id="s_galaxy_billing_GbotPrice_priceList" object="${gbotprice}" z="DBew3jLHP1VZggGoXWLpSETjpjs="/>
+        <field:display field="currency" id="s_galaxy_billing_GbotPrice_currency" object="${gbotprice}" z="rwMccoFxC37fWOjdWhx4upFQQoI="/>
+        <field:display field="price" id="s_galaxy_billing_GbotPrice_price" object="${gbotprice}" z="uDF9SHmFBL8s0bBIbFvTKnfnMDI="/>
+        
+    </page:show>
+</div>

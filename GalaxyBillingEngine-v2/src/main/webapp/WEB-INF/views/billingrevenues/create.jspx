@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_galaxy_billing_BillingRevenue" modelAttribute="billingRevenue" path="/billingrevenues" render="${empty dependencies}" z="KHZu1K68ZlHsOecqWj3ij+BwFM4=">
+        <field:select field="billId" id="c_galaxy_billing_BillingRevenue_billId" itemValue="id" items="${bills}" path="/bills" z="KHRacIIveJaFMUiYet1Xlii48h0="/>
+        <field:datetime dateTimePattern="${billingRevenue_billingdate_date_format}" field="billingDate" id="c_galaxy_billing_BillingRevenue_billingDate" required="true" z="DF+qrIqeyhkfn46h8cbEM2E3Vdo="/>
+        <field:input field="billingAmount" id="c_galaxy_billing_BillingRevenue_billingAmount" required="true" validationMessageCode="field_invalid_integer" z="SUszgrjyV/9C3l4NCn/sd+roJF0="/>
+        <field:input field="revenueAmount" id="c_galaxy_billing_BillingRevenue_revenueAmount" validationMessageCode="field_invalid_integer" z="lMSHJuVGxjE1PTGB32qDsidoL/8="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_galaxy_billing_BillingRevenue" render="${not empty dependencies}" z="/WpQ+PESrvqkbR3wVafwJ7fhEYs="/>
+</div>

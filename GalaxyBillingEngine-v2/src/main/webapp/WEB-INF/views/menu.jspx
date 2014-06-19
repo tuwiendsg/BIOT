@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_gbot" z="hT+vpiYBBMe2ZrEMjCFgNFfrEcE=">
+            <menu:item id="i_gbot_new" messageCode="global_menu_new" url="/gbots?form" z="2U0xoIbWhhanS0Tu6UetPj/bUoM="/>
+            <menu:item id="i_gbot_list" messageCode="global_menu_list" url="/gbots?page=1&amp;size=${empty param.size ? 10 : param.size}" z="e3TmdEHEVD0XXCCojoTFfYYqVoc="/>
+        </menu:category>
+                <menu:category id="c_gbotprice" z="RH4J8gao1wr72n1cA6zMXGw4eIw=">
+            <menu:item id="i_gbotprice_new" messageCode="global_menu_new" url="/gbotprices?form" z="p0BaPE3Q2f5pok2ISXfEYNkcdUU="/>
+            <menu:item id="i_gbotprice_list" messageCode="global_menu_list" url="/gbotprices?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Am10XnUBNrt4O12FRAJNQNDGfH4="/>
+        </menu:category>
+        <menu:category id="c_bill" z="hAQcl5fPVV+gFU4o9uZs4YSdxCs=">
+           <!-- <menu:item id="i_bill_new" messageCode="global_menu_new" url="/bills?form" z="cVovhzw6GT+ic6ihf14TyR5AdJ8="/> -->
+            <menu:item id="i_bill_list" messageCode="global_menu_list" url="/bills?page=1&amp;size=${empty param.size ? 10 : param.size}" z="g/dBi1S+sB2EQX5WLDhE56E6Tr8="/>
+       <!-- </menu:category>
+        <menu:category id="c_billline" z="P7VTLVu/X9hMh0ILB2s/F9vevw8=">
+            <menu:item id="i_billline_new" messageCode="global_menu_new" url="/billlines?form" z="NKWllrIYmeAqto9pqDasDIws8rw="/> -->
+            <menu:item id="i_billline_list" messageCode="global_menu_list" url="/billlines?page=1&amp;size=${empty param.size ? 10 : param.size}" z="pPQJ95sZPDE8gYjaa5xLoi+MR6M="/>
+        </menu:category>
+        <menu:category id="c_billingrevenue" z="TcJWNxycZWD7XghUsfeKuTnJbbE=">
+           <!--  <menu:item id="i_billingrevenue_new" messageCode="global_menu_new" url="/billingrevenues?form" z="Mm2FAMR6K/7IGK/SfvbJiKIQ/Io="/> -->
+            <menu:item id="i_billingrevenue_list" messageCode="global_menu_list" url="/billingrevenues?page=1&amp;size=${empty param.size ? 10 : param.size}" z="fhuY+kz5sh6Kk+DDXN0igtNDy0g="/>
+        </menu:category>
+        
+        <menu:category id="c_eventlog" z="eRZSsMMS5avdGk3H4Zt7mvXmMlQ=">
+          <!--  <menu:item id="i_eventlog_new" messageCode="global_menu_new" url="/eventlogs?form" z="ypz5Y2YlZOk4PpK9xYUqA4X1FzY="/> -->
+            <menu:item id="i_eventlog_list" messageCode="global_menu_list" url="/eventlogs?page=1&amp;size=${empty param.size ? 10 : param.size}" z="pr2ntEikiTLfrAj5NEqTIH5H+b4="/>
+        </menu:category>
+
+    </menu:menu>
+</div>

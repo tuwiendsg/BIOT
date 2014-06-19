@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_galaxy_billing_Bill" modelAttribute="bill" path="/bills" render="${empty dependencies}" z="xKSgEwsmlo7YLlbBkDCeHhCshlM=">
+        <field:simple field="billLines" id="c_galaxy_billing_Bill_billLines" messageCode="entity_reference_not_managed" messageCodeAttribute="Bill Line" z="2246qjo8eDOjVCrrwNmWZGVLjEQ="/>
+        <field:simple field="billingRevenues" id="c_galaxy_billing_Bill_billingRevenues" messageCode="entity_reference_not_managed" messageCodeAttribute="Billing Revenue" z="5aF6ykA1Yjs70uWHUWcZpZD0AfY="/>
+        <field:datetime dateTimePattern="${bill_createdatetime_date_format}" field="createDatetime" id="c_galaxy_billing_Bill_createDatetime" required="true" z="masakmOsIX170jIEcZ09HmTf7hM="/>
+        <field:input field="customer" id="c_galaxy_billing_Bill_customer" z="FIwUmu8NUIVKlKGrNrkBY//p8ys="/>
+        <field:input field="status" id="c_galaxy_billing_Bill_status" required="true" z="lpTDZjQ4dM+E+JlQuWS0Uu3U6dk="/>
+        <field:input field="total" id="c_galaxy_billing_Bill_total" required="true" validationMessageCode="field_invalid_number" z="Iehiwotlg42yKAyjWvegMqofx3w="/>
+        <field:input field="currency" id="c_galaxy_billing_Bill_currency" required="true" z="Uv3rKK/eqvs786DI9408NnR057w="/>
+        <field:input field="description" id="c_galaxy_billing_Bill_description" z="T7nxkxzr4DMEmP4xiQ8zCCT/vEE="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_galaxy_billing_Bill" render="${not empty dependencies}" z="VVgqjRueQu06yWEOLQ3shpes6r0="/>
+</div>

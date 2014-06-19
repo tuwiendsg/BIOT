@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_galaxy_billing_BillingRevenue" modelAttribute="billingRevenue" path="/billingrevenues" versionField="Version" z="7NY98WojaZfjGOo3vyHd9cAOqeg=">
+        <field:select field="billId" id="c_galaxy_billing_BillingRevenue_billId" itemValue="id" items="${bills}" path="/bills" z="KHRacIIveJaFMUiYet1Xlii48h0="/>
+        <field:datetime dateTimePattern="${billingRevenue_billingdate_date_format}" field="billingDate" id="c_galaxy_billing_BillingRevenue_billingDate" required="true" z="DF+qrIqeyhkfn46h8cbEM2E3Vdo="/>
+        <field:input field="billingAmount" id="c_galaxy_billing_BillingRevenue_billingAmount" required="true" validationMessageCode="field_invalid_integer" z="SUszgrjyV/9C3l4NCn/sd+roJF0="/>
+        <field:input field="revenueAmount" id="c_galaxy_billing_BillingRevenue_revenueAmount" validationMessageCode="field_invalid_integer" z="lMSHJuVGxjE1PTGB32qDsidoL/8="/>
+    </form:update>
+</div>

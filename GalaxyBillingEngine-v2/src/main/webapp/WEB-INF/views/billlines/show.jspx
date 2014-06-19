@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_galaxy_billing_BillLine" object="${billline}" path="/billlines" z="7QnAxykG7xg/B8IJRuFXROi1Dr4=">
+       <field:display field="billId" id="s_galaxy_billing_BillLine_billId" object="${billline}" z="mRgFkDk+goZCyUjTI/80AGBnSgU="/>
+        <field:display field="gbotsId" id="s_galaxy_billing_BillLine_gbotsId" object="${billline}" z="cA45IYwfQGqVAhhtCepwBauQtmM="/>
+        <field:display field="quantity" id="s_galaxy_billing_BillLine_quantity" object="${billline}" z="QYMGTss1SaUsMtjBm49C4837Zg4="/>
+        <field:display field="amount" id="s_galaxy_billing_BillLine_amount" object="${billline}" z="xGWESUmmXdf6ugrErIe9KLcIptI="/>
+        
+    </page:show>
+</div>

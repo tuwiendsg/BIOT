@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="billlines/list">
+        <put-attribute name="body" value="/WEB-INF/views/billlines/list.jspx"/>
+    </definition>
+<definition extends="default" name="billlines/show">
+        <put-attribute name="body" value="/WEB-INF/views/billlines/show.jspx"/>
+    </definition>
+<definition extends="default" name="billlines/create">
+        <put-attribute name="body" value="/WEB-INF/views/billlines/create.jspx"/>
+    </definition>
+<definition extends="default" name="billlines/update">
+        <put-attribute name="body" value="/WEB-INF/views/billlines/update.jspx"/>
+    </definition>
+</tiles-definitions>

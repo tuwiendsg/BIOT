@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_galaxy_billing_Gbot" items="${gbots}" z="B/leQ+epoWNPdMgdvChjcpsK+28=">
+        <table:table data="${gbots}" id="l_galaxy_billing_Gbot" path="/gbots" z="S112N0mUGHzMeT7Oog0Q4gqlBgU=">
+            <table:column id="c_galaxy_billing_Gbot_gbotPriceId" property="gbotPriceId" z="fse6rkNbWTRiV7I0fwySsM4+Oi8="/>
+            <table:column id="c_galaxy_billing_Gbot_name" property="name" z="/b5AtsF/M1PPMS7YH9giaxlI5bw="/>
+            <table:column id="c_galaxy_billing_Gbot_type" property="type" z="Az59br4U+6GqkHxPwy48FgwoO1Q="/>
+            <table:column id="c_galaxy_billing_Gbot_meteringUnit" property="meteringUnit" z="Ffm/Dch/4A9JkA/iTkcKVWQIf/E="/>
+        </table:table>
+    </page:list>
+</div>

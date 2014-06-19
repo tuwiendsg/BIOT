@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_galaxy_billing_Bill" object="${bill}" path="/bills" z="n5gq3kioZDK1mNmBRhvg51R1FNU=">
+        <field:display field="customer" id="s_galaxy_billing_Bill_customer" object="${bill}" z="hFPysu6j9VUfcpCBbGqs59Nk65M="/>
+        <field:display field="description" id="s_galaxy_billing_Bill_description" object="${bill}" z="sYwVJPol9tgyuuSy+8+jeJ8t2t8="/>
+        <field:display date="true" dateTimePattern="${bill_createdatetime_date_format}" field="createDatetime" id="s_galaxy_billing_Bill_createDatetime" object="${bill}" z="mPzogJWDs3ivZAENx+q4JA5lfYg="/>
+        <field:display field="total" id="s_galaxy_billing_Bill_total" object="${bill}" z="g7h3+E9u7wu3BrH7uOfG3pCvgbE="/>
+        <field:display field="currency" id="s_galaxy_billing_Bill_currency" object="${bill}" z="me8LDHBRyTZKutotiDdr+0rn//Y="/>
+        <field:display field="status" id="s_galaxy_billing_Bill_status" object="${bill}" z="efCX4QHhgPKAqAuA5dHBlSWzGJM="/>
+        
+        
+        
+    </page:show>
+</div>

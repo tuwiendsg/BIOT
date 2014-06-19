@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_galaxy_billing_EventLog" object="${eventlog}" path="/eventlogs" z="WS/kCiJu7NgSwrGwyFkNxMPTL9Q=">
+        <field:display field="gbotsId" id="s_galaxy_billing_EventLog_gbotsId" object="${eventlog}" z="+a6GdTbN7UaBxmglzTPyRKkf+KU="/>
+        <field:display field="gbotType" id="s_galaxy_billing_EventLog_gbotType" object="${eventlog}" z="zErvNCiCdD8nJtIl4LBv0O1ULPk="/>
+        <field:display field="gbotAction" id="s_galaxy_billing_EventLog_gbotAction" object="${eventlog}" z="IHkZdnS9tm7VO0PZ9uuh74pRslU="/>
+        <field:display field="providerId" id="s_galaxy_billing_EventLog_providerId" object="${eventlog}" z="WIBeJGtMsCczpkg01Z9WbkNFkz4="/>
+        <field:display field="customerId" id="s_galaxy_billing_EventLog_customerId" object="${eventlog}" z="CYCZInnyfDB9q3wChvVyLhmCxpg="/>
+        <field:display field="instanceId" id="s_galaxy_billing_EventLog_instanceId" object="${eventlog}" z="bVjRM4X9bXv+psYPmOWMV/2WWUk="/>
+        <field:display date="true" dateTimePattern="${eventLog_publishdate_date_format}" field="publishDate" id="s_galaxy_billing_EventLog_publishDate" object="${eventlog}" z="+UGXULE1PpfFluclTkdjt3ROnHQ="/>
+        
+        
+        
+    </page:show>
+</div>

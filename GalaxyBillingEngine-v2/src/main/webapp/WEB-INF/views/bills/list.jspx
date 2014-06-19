@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_galaxy_billing_Bill" items="${bills}" z="xwld9pva+TBC5pl6qJaqso9ff3g=">
+        <table:table data="${bills}" id="l_galaxy_billing_Bill" path="/bills" z="jA2u5jxsEa+iGdHXC+NvzfkMl9Q=">
+            <table:column date="true" dateTimePattern="${bill_createdatetime_date_format}" id="c_galaxy_billing_Bill_createDatetime" property="createDatetime" z="jB2eIySN3FNHKbNPLkEiZhG5D8Q="/>
+            <table:column id="c_galaxy_billing_Bill_customer" property="customer" z="SgThGm9oDGePilA4+h3JNFDLl/M="/>
+            <table:column id="c_galaxy_billing_Bill_status" property="status" z="6Ioj8i1Hs+3IVQHIM0I3Fhrr884="/>
+            <table:column id="c_galaxy_billing_Bill_total" property="total" z="Rt6Aq5WT4BnAmqjeKxMRE6MWcwE="/>
+        </table:table>
+    </page:list>
+</div>

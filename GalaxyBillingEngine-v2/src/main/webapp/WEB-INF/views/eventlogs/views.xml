@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="eventlogs/list">
+        <put-attribute name="body" value="/WEB-INF/views/eventlogs/list.jspx"/>
+    </definition>
+<definition extends="default" name="eventlogs/show">
+        <put-attribute name="body" value="/WEB-INF/views/eventlogs/show.jspx"/>
+    </definition>
+<definition extends="default" name="eventlogs/create">
+        <put-attribute name="body" value="/WEB-INF/views/eventlogs/create.jspx"/>
+    </definition>
+<definition extends="default" name="eventlogs/update">
+        <put-attribute name="body" value="/WEB-INF/views/eventlogs/update.jspx"/>
+    </definition>
+</tiles-definitions>
